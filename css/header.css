@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header {
+	background-color: #000;
+	margin: 20px;
+	height: 50px;
+	width: 955px;
+	border: thin groove #069;
+	position: relative;
+	top: -25px;
+	left: -28px;
+	font-size: 30px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #600;
+	line-height: normal;
+	font-style: oblique;
+	font-family: "Times New Roman", Times, serif;
+	background-image: url(../images/IMAG0362.jpg);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	text-align: left;
+	white-space: normal;
+	display: block;
+	cursor: crosshair;
+	padding-top: 35px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
