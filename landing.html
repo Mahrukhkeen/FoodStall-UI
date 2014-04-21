@@ -6,12 +6,57 @@
 <link href="css/header.css" rel="stylesheet" type="text/css" />
 <link href="css/button.css" rel="stylesheet" type="text/css" />
 <link href="css/landing.css" rel="stylesheet" type="text/css" />
+<link href="css/banner.css" rel="stylesheet" type="text/css" /><style type="text/css">
+body {
+	background-color: #900;
+}
+</style>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jssor.core.js"></script>
+<script type="text/javascript" src="js/jssor.utils.js"></script>
+<script type="text/javascript" src="js/jssor.slider.js"></script>
+    
 </head>
 
 <body>
 <div class="header">FoodStall.com</div>
-<input name="Login" type="button" value="Login" class="button pos" />
-<input name="Signup" type="button" value="Signup" class="button pos2"/>
+	<input name="Login" type="button" value="Login" class="button pos" />
+	<input name="Signup" type="button" value="Signup" class="button pos2"/>
+<div id="slider1_container" style="position: relative; top: -20px; left: 220px; width: 600px; height: 500px;">
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 900px; height: 300px; overflow: hidden;">
+            <div><img u="image" src="images/002.jpg" /></div>
+            <div><img u="image" src="images/003.jpg" /></div>
+            <div><img u="image" src="images/004.jpg" /></div>
+  </div>
+        
+        <!-- Arrow Navigator Skin Begin -->
+        <style>
+            .jssora03l, .jssora03r, .jssora03ldn, .jssora03rdn
+            {
+            	position: absolute;
+            	cursor: pointer;
+            	display: block;
+                background: url(images/a03.png) no-repeat;
+                overflow:hidden;
+            }
+            .jssora03l { background-position: -3px -33px; }
+            .jssora03r { background-position: -63px -33px; }
+            .jssora03l:hover { background-position: -123px -33px; }
+            .jssora03r:hover { background-position: -183px -33px; }
+            .jssora03ldn { background-position: -243px -33px; }
+            .jssora03rdn { background-position: -303px -33px; }
+        </style>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora03l" style="width: 55px; height: 55px; top: 123px; left: 8px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora03r" style="width: 55px; height: 55px; top: 123px; right: -290px">
+        </span>
+        <!-- Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">jQuery Slider</a>
+    </div>
 
 </body>
 </html>
