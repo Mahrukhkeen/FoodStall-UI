@@ -8,24 +8,26 @@
 <link href="css/landing.css" rel="stylesheet" type="text/css" />
 <link href="css/banner.css" rel="stylesheet" type="text/css" /><style type="text/css">
 body {
-	background-color: #900;
+	background-color: #990000;
 }
 </style>
+<link href="SpryAssets/SpryValidationSelect.css" rel="stylesheet" type="text/css" />
+<link href="css/footer.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/jssor.core.js"></script>
 <script type="text/javascript" src="js/jssor.utils.js"></script>
 <script type="text/javascript" src="js/jssor.slider.js"></script>
-    
+<script src="SpryAssets/SpryValidationSelect.js" type="text/javascript"></script>
 </head>
 
 <body>
 <div class="header">FoodStall.com</div>
 	<input name="Login" type="button" value="Login" class="button pos" />
 	<input name="Signup" type="button" value="Signup" class="button pos2"/>
-<div id="slider1_container" style="position: relative; top: -20px; left: 220px; width: 600px; height: 500px;">
-
+<div id="slider1_container" style="position: relative; top: -30px; left: 175px; width: 600px; height: 500px;"><span id="spryselect1">location
+    
         <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 900px; height: 300px; overflow: hidden;">
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1000px; height: 300px; overflow: hidden;">
             <div><img u="image" src="images/002.jpg" /></div>
             <div><img u="image" src="images/003.jpg" /></div>
             <div><img u="image" src="images/004.jpg" /></div>
@@ -52,11 +54,27 @@ body {
         <span u="arrowleft" class="jssora03l" style="width: 55px; height: 55px; top: 123px; left: 8px;">
         </span>
         <!-- Arrow Right -->
-        <span u="arrowright" class="jssora03r" style="width: 55px; height: 55px; top: 123px; right: -290px">
+        <span u="arrowright" class="jssora03r" style="width: 55px; height: 55px; top: 123px; right: -390px">
         </span>
         <!-- Arrow Navigator Skin End -->
         <a style="display: none" href="http://www.jssor.com">jQuery Slider</a>
+</div>
+    <h1>Please select a location to continue</h1>
+    <h2>Current location : </h2>
+	
+   <!-- <select name="loc" id="loc">None</select>
+    <span class="selectRequiredMsg">Please select an item.</span></span>
+	
+	<script type="text/javascript">
+	var spryselect1 = new Spry.Widget.ValidationSelect("spryselect1");
+    </script>-->
+    <div class="footer">
+    	<img src="images/fb.jpg" style="position:relative; top:-15px; left:550px; width:30px;height:30px"/>
+        <img src="images/letter.jpg" style="position:relative; top:-15px; left:570px; width:30px;height:30px"/>
+    	<img src="images/twitter.png" style="position:relative; top:-15px; left:590px; width:30px;height:30px"/>
     </div>
+    
+    
 
 </body>
 </html>

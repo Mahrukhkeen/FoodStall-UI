@@ -4,14 +4,33 @@
 .pos {
 	position: relative;
 	left: -140px;
-	top: -115px;
+	top: -95px;
 }
 .pos2 {
 	position: relative;
 	left: 30px;
-	top: -115px;
+	top: -95px;
 	padding-top: 7px;
 	padding-right: 8px;
 	padding-bottom: 7px;
 	padding-left: 8px;
+}
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	position: relative;
+	top: -220px;
+	left: 460px;
+	font-style: oblique;
+	font-weight: bold;
+	font-size: 24px;
+	color: #FFF;
+}
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	position: relative;
+	top: -200px;
+	left: 400px;
+	font-style: oblique;
+	color: #FFF;
 }
