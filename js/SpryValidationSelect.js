@@ -478,3 +478,5 @@ Spry.Widget.Utils.removeEventListener = function(element, eventType, handler, ca
 };
 
 })(); // EndSpryComponent
+
+var spryselect1 = new Spry.Widget.ValidationSelect("spryselect1");

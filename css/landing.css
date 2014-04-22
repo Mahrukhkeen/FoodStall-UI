@@ -3,9 +3,19 @@
 
 .pos {
 	position: relative;
-	left: -140px;
+	left: -125px;
 	top: -95px;
 }
+p {
+	font-style: oblique;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	left: 28%;
+	bottom: 13%;
+	color: #600;
+}
+
 .pos2 {
 	position: relative;
 	left: 30px;
@@ -18,19 +28,44 @@
 h1 {
 	font-family: "Times New Roman", Times, serif;
 	position: relative;
-	top: -220px;
-	left: 460px;
+	top: -25%;
+	left: 31%;
 	font-style: oblique;
 	font-weight: bold;
 	font-size: 24px;
-	color: #FFF;
+	color: #600;
 }
 h2 {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 18px;
 	position: relative;
-	top: -200px;
-	left: 400px;
+	top: -22%;
+	left: 28%;
 	font-style: oblique;
-	color: #FFF;
+	color: #600;
+}
+.loc {
+	position: relative;
+	left: 43%;
+	top: -27.5%;
+}
+.add {
+	position: relative;
+	top: -23%;
+	right: 45%;
+	width: 120px;
+}
+.view {
+	position: relative;
+	top: -23%;
+	right: 19.8%;
+	width: 120px; 
+}
+.container {
+	background-color: #FFC;
+	height: 630px;
+	width: 1000px;
+	position: relative;
+	left: 12.5%;
+	top: 50%;
 }

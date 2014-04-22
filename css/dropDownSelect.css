@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+#loc {
+	font-size: 14px;
+	font-style: oblique;
+	width: 250px;
+	height: 25px;
+	display: list-item;
+	list-style-position: outside;
+	list-style-type: disc;
+	filter: Gray;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	border-top-color: #900;
+	border-right-color: #900;
+	border-bottom-color: #900;
+	border-left-color: #900;
+	cursor: auto;
+	font-weight: normal;
+}
